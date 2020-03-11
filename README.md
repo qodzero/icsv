@@ -8,7 +8,7 @@ something like that.
 
 *Usage*
 ------------------
-```
+```python
 >>>from icsv.icsv import reader
 >>>df = reader.read('path/to/csv')
 >>>df.keys()
