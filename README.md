@@ -8,7 +8,7 @@ something like that.
 
 *Usage*
 ------------------
-
+```
 >>>from icsv.icsv import reader
 >>>df = reader.read('path/to/csv')
 >>>df.keys()
@@ -18,7 +18,7 @@ dict_keys(['key1','key2','key3'])
 >>>df['key1'][1] = 7
 >>>df['key1']
 [1,7,3,4,5]
-
+```
 Quite simple really and intentionally so.
 Basically, after using the `read` command, you have a normal
 python dictionery, which means everything you can do with dicts
